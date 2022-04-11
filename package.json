@@ -9,7 +9,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "hello": "node hello.js"
+    "hello": "node hello.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/osu-cs493-sp22/server-setup/issues"
   },
-  "homepage": "https://github.com/osu-cs493-sp22/server-setup#readme"
+  "homepage": "https://github.com/osu-cs493-sp22/server-setup#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
